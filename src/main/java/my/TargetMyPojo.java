@@ -2,10 +2,10 @@ package my;
 
 import adding.MarkerInterface;
 
-public class TargetPojo implements MarkerInterface {
+public class TargetMyPojo implements MarkerInterface {
 	private String name;
 
-	public TargetPojo(String name) {
+	public TargetMyPojo(String name) {
 		super();
 		this.name = name;
 	}
